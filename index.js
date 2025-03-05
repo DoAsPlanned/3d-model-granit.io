@@ -1,6 +1,8 @@
-import * as THREE from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/three.module.js';
-import { OrbitControls } from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/OrbitControls.js';
-import { GLTFLoader } from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/GLTFLoader.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.131.3/build/three.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/loaders/GLTFLoader.js';
+
+// Ваш код здесь...
 
 
 // Сцена
