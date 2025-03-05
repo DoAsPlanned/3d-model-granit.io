@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three JS</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- Ссылка на CSS файл -->
+</head>
+<body>
+
+    <!-- Контейнер для ползунка и кнопок -->
+    <div class="controls-container">
+        <!-- Ползунок с увеличенными размерами -->
+        <input type="range" id="slider" min="0" max="2.5" step="0.01" value="0">
+
+        <!-- Контейнер для кнопок Разобрать и Собрать -->
+        <div class="button-group">
+            <button id="dismantleButton">Разобрать</button>
+            <button id="assembleButton">Собрать</button>
+        </div>
+
+        <!-- Кнопка для сброса всех действий -->
+        <button id="resetButton">Сбросить все</button>
+    </div>
+
+    <!-- Подключение вашего скрипта -->
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
