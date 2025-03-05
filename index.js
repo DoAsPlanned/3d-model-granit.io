@@ -1,6 +1,6 @@
-import * as THREE from './libs/three.module.js';
-import { OrbitControls } from './libs/OrbitControls.js';
-import { GLTFLoader } from './libs/GLTFLoader.js';
+import * as THREE from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/three.module.js';
+import { OrbitControls } from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/OrbitControls.js';
+import { GLTFLoader } from 'https://raw.githubusercontent.com/DoAsPlanned/3d-model-granit.io/main/libs/GLTFLoader.js';
 
 
 // Сцена
